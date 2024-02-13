@@ -22,7 +22,7 @@ export default function Home() {
         <div className="col-span-1">{date}</div>
         <div className="col-span-3 flex flex-col gap-1">
           <img className="w-10" src={image}></img>
-          <Link href={github} className="text-white underline">{name}</Link>
+          <Link href={github} className="text-white underline hover:text-blue-500">{name}</Link>
           <div>{desc}</div>
           <div>{stack}</div>
         </div>
@@ -34,7 +34,7 @@ export default function Home() {
     return (
       <div className="grid sm:grid-cols-4 grid-cols-1">
         <div className="col-span-1">{name}</div>
-        <Link className="flex gap-4 text-white col-span-3 underline" href={link}>{display}</Link>
+        <Link className="flex gap-4 text-white col-span-3 underline hover:text-blue-500" href={link}>{display}</Link>
       </div>
     )
   }
@@ -69,24 +69,24 @@ export default function Home() {
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Projects</div>
         {projectComponent("Human vs AI Audio", "/frequency.png", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI• Audacity • Python", "/")}
-        {projectComponent("Wealth Works", "", "Imprintapp.com but for finance fundamenals", "Ongoing", "Android Studio • Ktor • Kotlin • Compose", "/")}
-        {projectComponent("Hoops", "/basketball.png", "NBA statistics website", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
-        {projectComponent("Return Policies", "", "Return and exchange policies for retail companies", "2023", "Python • Firebase • OpenAI API", "https://github.com/sahlbakshi/refund")}
-        {projectComponent("BattleShip", "/battleship.png", "Classic game of battleship", "2022", "Kotlin • Gradle • JavaFX", "https://github.com/sahlbakshi/battleship")}
+        {projectComponent("Wealth Works", "", "Imprintapp.com but for finance fundamenals in Android", "Ongoing", "Android Studio • Ktor • Kotlin • Compose", "/")}
+        {projectComponent("Hoops", "/basketball.png", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
+        {projectComponent("Return Policies", "", "One stop app to find out return and exchange policies for retail companies", "2023", "Python • Firebase • OpenAI API", "https://github.com/sahlbakshi/refund")}
+        {projectComponent("BattleShip", "", "The classic game of battleship", "2022", "Kotlin • Gradle • JavaFX", "https://github.com/sahlbakshi/battleship")}
         {projectComponent("Straights", "/card.png", "Poker like game called straights", "2021", "C++ • UML • Object Oriented Programming", "https://github.com/sahlbakshi/straights")}
       </div>
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Skills</div>
         {skillsComponent("Languages", "C/C++ • Java • Python • HTML/CSS • JavaScript • TypeScript • Kotlin • SQL • Bash")}
-        {skillsComponent("Tools", "React • Next JS • Node • ExpressJS • Git • GDB • Valgrind • Firebase • Spring Boot • Android Studio • MongoDB • SSMS")}
+        {skillsComponent("Some Tools", "React • Next JS • Auth.js • Node • Git • GDB • Valgrind • Firebase • Spring Boot • Android Studio • MongoDB • PostgresSQL • Supabase • Tailwind CSS")}
       </div>
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Links</div>
-        {linkComponent("Github", "/https://github.com/sahlbakshi", "github/sahlbakshi")}
-        {linkComponent("LinkedIn", "/https://www.linkedin.com/in/sahl-bakshi/", "linkedin/sahlbakshi")}
-        {linkComponent("Instagram", "/https://instagram.com/sahlbakshi", "instagram/sahlbakshi")}
+        {linkComponent("GitHub", "https://github.com/sahlbakshi", "github/sahlbakshi")}
+        {linkComponent("LinkedIn", "https://www.linkedin.com/in/sahl-bakshi/", "linkedin/sahlbakshi")}
+        {linkComponent("Instagram", "https://instagram.com/sahlbakshi", "instagram/sahlbakshi")}
         {linkComponent("Email", "mailto:sahl.bakshi@uwaterloo.ca", "email/saa2baks@uwaterloo.ca")}
       </div>
     </div>

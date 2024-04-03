@@ -68,6 +68,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Projects</div>
+        {projectComponent("Nutshell", "", "YouTube summarization tool", "2024", "Next.js • Flask • GCP • OpenAI API • Tailwind CSS", "https://github.com/sahlbakshi/nutshell")}
         {projectComponent("Human vs AI Audio", "/frequency.png", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI• Audacity • Python", "/")}
         {projectComponent("Wealth Works", "", "Imprintapp.com but for finance fundamenals in Android", "Ongoing", "Android Studio • Ktor • Kotlin • Compose", "/")}
         {projectComponent("Hoops", "/basketball.png", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}

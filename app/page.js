@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Home() {
   const me = "Sahl Bakshi"
-  const about = "Hi, I'm a Computer Science student at the University of Waterloo - passionate about building great software and full stack applications from start to finish."
+  const about = "Hi, I'm a Computer Science student at the University of Waterloo - passionate about building great software and products from start to finish."
   
   const workComponent = (name, role, date, stack) => {
     return (
@@ -69,12 +69,12 @@ export default function Home() {
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Projects</div>
         {projectComponent("Nutshell", "", "YouTube summarization tool", "2024", "Next.js • Flask • GCP • OpenAI API • Tailwind CSS", "https://github.com/sahlbakshi/nutshell")}
-        {projectComponent("Human vs AI Audio", "/frequency.png", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI• Audacity • Python", "/")}
+        {projectComponent("Human vs AI Audio", "", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI• Audacity • Python", "/")}
         {projectComponent("Wealth Works", "", "Imprintapp.com but for finance fundamenals in Android", "Ongoing", "Android Studio • Ktor • Kotlin • Compose", "/")}
-        {projectComponent("Hoops", "/basketball.png", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
+        {projectComponent("Hoops", "", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
         {projectComponent("Return Policies", "", "One stop app to find out return and exchange policies for retail companies", "2023", "Python • Firebase • OpenAI API", "https://github.com/sahlbakshi/refund")}
         {projectComponent("BattleShip", "", "The classic game of battleship", "2022", "Kotlin • Gradle • JavaFX", "https://github.com/sahlbakshi/battleship")}
-        {projectComponent("Straights", "/card.png", "Poker like game called straights", "2021", "C++ • UML • Object Oriented Programming", "https://github.com/sahlbakshi/straights")}
+        {projectComponent("Straights", "", "Poker like game called straights", "2021", "C++ • UML • Object Oriented Programming", "https://github.com/sahlbakshi/straights")}
       </div>
 
       <div className="flex flex-col gap-8 mb-4">

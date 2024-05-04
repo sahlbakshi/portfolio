@@ -60,7 +60,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Work Experience</div>
-        {workComponent("Algo", "Founder, Engineer", "Ongoing", "NextJS • Tailwind CSS • Supabase • Communication")}
+        {workComponent("Space Consulting", "Founder, Engineer", "Ongoing", "NextJS • Tailwind CSS • GCP • Supabase • Communication")}
         {workComponent("Goeasy LTD", "Backend Engineer Intern", "Fall 2023", "Java • SQL • Spring • REST APIs")}
         {workComponent("Ford Motor Company", "Software Developer Intern", "Fall 2022", "C++ • Jenkins • Unit Testing")}
         {workComponent("Uxbert Labs", "Software Engineer Intern", "Winter 2022", "React • Node • Javascript • HTML/CSS")}
@@ -68,11 +68,9 @@ export default function Home() {
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Projects</div>
-        {projectComponent("Nutshell", "", "YouTube summarization tool", "2024", "Next.js • Flask • GCP • OpenAI API • Tailwind CSS", "https://github.com/sahlbakshi/nutshell")}
-        {projectComponent("Human vs AI Audio", "", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI• Audacity • Python", "/")}
-        {projectComponent("Wealth Works", "", "Imprintapp.com but for finance fundamenals in Android", "Ongoing", "Android Studio • Ktor • Kotlin • Compose", "/")}
+        {projectComponent("RecEngine", "", "Recommedation System for Movies", "2024", "Python • Jupyter Notebook • Pandas • Seaborn", "https://github.com/sahlbakshi/nutshell")}
+        {projectComponent("Human vs AI Audio", "", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI • Audacity", "/")}
         {projectComponent("Hoops", "", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
-        {projectComponent("Return Policies", "", "One stop app to find out return and exchange policies for retail companies", "2023", "Python • Firebase • OpenAI API", "https://github.com/sahlbakshi/refund")}
         {projectComponent("BattleShip", "", "The classic game of battleship", "2022", "Kotlin • Gradle • JavaFX", "https://github.com/sahlbakshi/battleship")}
         {projectComponent("Straights", "", "Poker like game called straights", "2021", "C++ • UML • Object Oriented Programming", "https://github.com/sahlbakshi/straights")}
       </div>

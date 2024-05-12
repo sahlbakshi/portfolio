@@ -60,7 +60,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Work Experience</div>
-        {workComponent("Space Consulting", "Founder, Engineer", "Ongoing", "NextJS • Tailwind CSS • GCP • Supabase • Communication")}
+        {workComponent("Algo Consulting", "Founder, Engineer", "Ongoing", "NextJS • Tailwind CSS • GCP • Supabase • Communication")}
         {workComponent("Goeasy LTD", "Backend Engineer Intern", "Fall 2023", "Java • SQL • Spring • REST APIs")}
         {workComponent("Ford Motor Company", "Software Developer Intern", "Fall 2022", "C++ • Jenkins • Unit Testing")}
         {workComponent("Uxbert Labs", "Software Engineer Intern", "Winter 2022", "React • Node • Javascript • HTML/CSS")}

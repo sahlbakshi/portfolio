@@ -16,6 +16,8 @@ export default function Home() {
     )
   }
 
+  // {projectComponent("BattleShip", "", "The classic game of battleship", "2022", "Kotlin • Gradle • JavaFX", "https://github.com/sahlbakshi/battleship")}
+
   const projectComponent = (name, image, desc, date, stack, github) => {
     return (
       <div className="grid sm:grid-cols-4 grid-cols-1">
@@ -68,11 +70,10 @@ export default function Home() {
 
       <div className="flex flex-col gap-8 mb-4">
         <div className="text-white">Projects</div>
-        {projectComponent("RecEngine", "", "Recommedation System for Movies", "2024", "Python • Jupyter Notebook • Pandas • Seaborn", "https://github.com/sahlbakshi/nutshell")}
-        {projectComponent("Human vs AI Audio", "", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI • Audacity", "/")}
-        {projectComponent("Hoops", "", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
-        {projectComponent("BattleShip", "", "The classic game of battleship", "2022", "Kotlin • Gradle • JavaFX", "https://github.com/sahlbakshi/battleship")}
         {projectComponent("Straights", "", "Poker like game called straights", "2021", "C++ • UML • Object Oriented Programming", "https://github.com/sahlbakshi/straights")}
+        {projectComponent("Hoops", "", "Fullstack NBA statistics web app developed for CS 348 database project", "2023", "TypeScript • Next JS • PotsgreSQL", "https://github.com/KrammyGod/hoops")}
+        {projectComponent("RecEngine", "", "Recommedation System for Movies", "2024", "Python • Jupyter Notebook • Pandas • Seaborn", "https://github.com/sahlbakshi/RecEngine")}
+        {projectComponent("Human vs AI Audio", "", "Investigating fidelity of generative AI in voice recreation", "Ongoing", "Octave GUI • Audacity", "https://github.com/sahlbakshi/audioanalysis")}
       </div>
 
       <div className="flex flex-col gap-8 mb-4">

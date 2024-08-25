@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export default function Home() {
   const me = "Sahl Bakshi"
-  const about = "Studing CS at Waterloo. Building stuff on the side."
-  
+  const about = "Studing Computer Science at Waterloo. Building stuff on the side."
+
   const Tag = ({ label }) => {
     return (
       <div className="text-gray-1 py-1 px-2 bg-gray-2 text-sm rounded-md">{label}</div>
@@ -77,15 +77,21 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col gap-6 text-base px-6 my-6 sm:my-10 sm:w-[32rem] w-full">
+      <div className="flex flex-col gap-6 text-base px-6 my-6 sm:my-10 sm:w-[36rem] w-full">
         <div className="flex flex-col gap-4">
           <div className="text-3xl">{me}</div>
           <div>{about}</div>
         </div>
 
         <div className="flex flex-row gap-4">
-          <LinkComponent label={'GitHub'} link={'https://github.com/sahlbakshi'}></LinkComponent>
-          <LinkComponent label={'Twitter'} link={'https://x.com/sahlbakshi'}></LinkComponent>
+          <LinkComponent 
+            label={'GitHub'} 
+            link={'https://github.com/sahlbakshi'}>
+          </LinkComponent>
+          <LinkComponent 
+            label={'Twitter'} 
+            link={'https://x.com/sahlbakshi'}>  
+          </LinkComponent>
         </div>
 
         <div className="flex flex-col gap-6 ">
@@ -94,7 +100,7 @@ export default function Home() {
             name={'Stealth'}
             role={'Co-Founder'}
             date={'... Present'}
-            prefix={'Builing an app because of'}
+            prefix={'Building an app because of'}
             made={['']}
             image={'/placeholder.png'}
           ></WorkComponent>
@@ -145,7 +151,7 @@ export default function Home() {
       </div>
 
       <div className="flex border-t border-gray-2 justify-center w-full">
-        <div className="flex flex-row text-base px-6 my-2 sm:my-2 sm:w-[32rem] w-full justify-between items-center">
+        <div className="flex flex-row text-base px-6 my-2 sm:my-2 sm:w-[36rem] w-full justify-between items-center">
           <div className="text-gray-1">
           <LinkComponent
             label={'design by'}

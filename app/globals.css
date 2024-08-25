@@ -11,3 +11,14 @@
   color: #f3f4f6;
   font-family: "DM Sans", monospace;
 }
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

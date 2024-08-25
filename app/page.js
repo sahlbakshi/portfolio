@@ -14,7 +14,7 @@ export default function Home() {
   const WorkComponent = ({name, role, date, stack = [], made = [], prefix, image}) => {
     return (
       <div className="flex flex-row gap-4 items-center">
-          <Image className="rounded-sm" src={image} width={46} height={46}></Image>
+          <Image className="rounded-sm" src={image} width={46} height={46} alt="company logo"></Image>
           <div className="flex flex-col items-start gap-0.5">
             <div className="flex flex-row gap-2 items-center">
               <div className="text-lg">{name}</div>
@@ -70,6 +70,7 @@ export default function Home() {
           width={10}
           height={10}
           className="transition-transform duration-200 ease-in-out transform group-hover:rotate-45"
+          alt="up right arrow"
         />
       </Link>
     )
@@ -149,10 +150,10 @@ export default function Home() {
           <div className="text-gray-1">2024</div>
           <div className="flex gap-2 items-center">
             <Link href={'https://x.com/sahlbakshi'}>
-              <Image src={'/twitterx.png'} width={20} height={16}></Image>
+              <Image src={'/twitterx.png'} width={20} height={16} alt="twitter"></Image>
             </Link>
             <Link href={'https://github.com/sahlbakshi'}>
-              <Image src={'/github.png'} width={24} height={24}></Image>
+              <Image src={'/github.png'} width={24} height={24} alt="github"></Image>
             </Link>
           </div>
         </div>

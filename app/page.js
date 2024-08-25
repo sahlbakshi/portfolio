@@ -111,7 +111,7 @@ export default function Home() {
             role={'Software Engineer Intern, Backend'}
             date={'Fall 2023'}
             stack={['Java', 'Spring Boot']}
-            image={'/goeasy.jpg'}
+            image={'/goeasy.png'}
           ></WorkComponent>
           <WorkComponent
             name={'Ford'}
@@ -134,7 +134,7 @@ export default function Home() {
           <ProjectComponent
             name={'Straights'}
             link={'https://github.com/sahlbakshi/straights'}
-            desc={'Poker-Like game called straights on the CLI'}
+            desc={'Poker-like game called straights on the CLI'}
           ></ProjectComponent>
           <ProjectComponent
             name={'Recommendation System'}
@@ -146,6 +146,13 @@ export default function Home() {
 
       <div className="flex border-t border-gray-2 justify-center w-full">
         <div className="flex flex-row text-base px-6 my-2 sm:my-2 sm:w-[32rem] w-full justify-between items-center">
+          <div className="text-gray-1">
+          <LinkComponent
+            label={'design by'}
+            link={'https://www.peterdpong.com/'}
+          >
+          </LinkComponent>
+          </div>
           <div className="text-gray-1">2024</div>
           <div className="flex gap-2 items-center">
             <Link href={'https://x.com/sahlbakshi'}>

@@ -32,9 +32,8 @@ export default function Home() {
               <div className="flex flex-row gap-2 text-base text-gray-1">
                 {prefix}
                 {made.map((item, index) => (
-                  <div className="flex flex-row text-gray-1">
+                  <div key={index} className="flex flex-row text-gray-1">
                     <LinkComponent 
-                      key={index} 
                       label={'this'}
                       link={item}>
                     </LinkComponent>

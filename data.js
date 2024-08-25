@@ -38,7 +38,7 @@ export const work = [
     role: 'Co-Founder',
     date: '... Present',
     prefix: 'Building an app because of',
-    made: [''],
+    made: ['/reddit'],
     image: placeholder,
   },
   {

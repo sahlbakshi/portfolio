@@ -6,9 +6,10 @@
 @tailwind utilities;
 
 * {
-  background-color: #161616;
-  box-sizing: border-box;
-  color: #f3f4f6;
+  @apply bg-gray-3 text-white-1;
+}
+
+* {
   font-family: "DM Sans", monospace;
 }
 

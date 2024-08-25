@@ -6,7 +6,7 @@ import webook from '@/images/webook.png'
 import placeholder from '@/images/placeholder.png'
 
 export const me = "Sahl Bakshi"
-export const about = "Studing CS at Waterloo. Building stuff on the side."
+export const about = "Studying undergrad CS at Waterloo. Building stuff on the side."
 
 export const textLinks = [
   { label: 'GitHub', link: 'https://github.com/sahlbakshi' },

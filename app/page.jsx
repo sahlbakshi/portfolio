@@ -9,7 +9,10 @@ export default function Home() {
     <Container>
       <div className="flex flex-col gap-4">
         <div className="text-3xl">{data.me}</div>
-        <div>{data.about}</div>
+        <div className="flex flex-col gap-1">
+          <p>{data.about}</p>
+        </div>
+        
       </div>
 
       <div className="flex flex-row gap-4">

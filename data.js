@@ -11,6 +11,7 @@ export const about = "Studing CS at Waterloo. Building stuff on the side."
 export const textLinks = [
   { label: 'GitHub', link: 'https://github.com/sahlbakshi' },
   { label: 'Twitter', link: 'https://x.com/sahlbakshi' },
+  { label: 'Email', link: 'mailto:saa2baks@uwaterloo.ca' },
 ]
 
 export const iconLinks = [

@@ -7,7 +7,7 @@ import placeholder from '@/images/placeholder.png'
 export const smartscreenshotdemo = 'smartscreenshotdemo.mp4';
 
 export const me = "Sahl Bakshi"
-export const about = "Studying undergrad CS at Waterloo. Building stuff on the side."
+export const about = "Undergrad CS at Waterloo. Currently building an"
 
 export const textLinks = [
   { label: 'GitHub', link: 'https://github.com/sahlbakshi' },
@@ -40,6 +40,7 @@ export const projects = [
 ]
 
 export const work = [
+  /*
   {
     name: 'Stealth',
     role: 'Co-Founder',
@@ -48,8 +49,9 @@ export const work = [
     made: ['/reddit'],
     image: placeholder,
   },
+  */
   {
-    name: 'Some Agency',
+    name: 'Agency',
     role: 'Co-Founder',
     date: 'Winter 2024',
     prefix: 'Built stuff like',

@@ -4,6 +4,7 @@ import goeasy from '@/images/goeasy.png'
 import ford from '@/images/ford.png'
 import webook from '@/images/webook.png'
 import placeholder from '@/images/placeholder.png'
+export const smartscreenshotdemo = 'smartscreenshotdemo.mp4';
 
 export const me = "Sahl Bakshi"
 export const about = "Studying undergrad CS at Waterloo. Building stuff on the side."
@@ -20,6 +21,12 @@ export const iconLinks = [
 ]
 
 export const projects = [
+  {
+    name: 'Smart Screenshot',
+    link: 'https://github.com/sahlbakshi/SmartScreenshot',
+    desc: 'GPT-4 powered automated screenshot renamer',
+    demo: smartscreenshotdemo
+  },
   {
     name: 'Straights',
     link: 'https://github.com/sahlbakshi/straights',

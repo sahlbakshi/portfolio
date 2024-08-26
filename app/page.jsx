@@ -49,6 +49,7 @@ export default function Home() {
             name={item.name}
             desc={item.desc}
             link={item.link}
+            demo={item.demo ? item.demo : ''}
           ></Project>
         ))}
       </div>

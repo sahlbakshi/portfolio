@@ -1,6 +1,6 @@
 import ArrowLink from "./ArrowLink"
 
-function Project({name, desc, link}) {
+function Project({name, desc, link, demo = ''}) {
   return (
     <div className="text-lg">
       <ArrowLink
@@ -8,6 +8,12 @@ function Project({name, desc, link}) {
         link={link}
       ></ArrowLink>
       <div className="text-base text-gray-1">{desc}</div>
+      {demo &&
+        <video className="mt-2 rounded-sm w-full" controls >
+          <source src={'/demo/' + demo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      }
     </div>
   )
 }

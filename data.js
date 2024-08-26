@@ -23,7 +23,7 @@ export const iconLinks = [
 export const projects = [
   {
     name: 'Smart Screenshot',
-    link: 'https://github.com/sahlbakshi/SmartScreenshot',
+    link: 'https://github.com/sahlbakshi/smart-screenshot',
     desc: 'GPT-4 powered automated screenshot renamer',
     demo: smartscreenshotdemo
   },

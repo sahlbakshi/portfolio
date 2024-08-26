@@ -7,7 +7,7 @@ import placeholder from '@/images/placeholder.png'
 export const smartscreenshotdemo = 'smartscreenshotdemo.mp4';
 
 export const me = "Sahl Bakshi"
-export const about = "Undergrad CS at Waterloo. Currently building an"
+export const about = "Undergrad CS at Waterloo. Currently building an "
 
 export const textLinks = [
   { label: 'GitHub', link: 'https://github.com/sahlbakshi' },

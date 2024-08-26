@@ -9,7 +9,7 @@ function Footer() {
         <div className="text-gray-1">
           <Link className="underline decoration-gray-1 hover:decoration-white-1" href={'https://www.peterdpong.com/'}>design from</Link>
         </div>
-        <div className="text-gray-1 -ml-8">2024</div>
+        <div className="text-gray-1 -ml-6">2024</div>
         <div className="flex gap-2 items-center">
           {data.iconLinks.map((item, index) => (
             <Link key={index} href={item.link}>

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Container>
       <div className="flex flex-col gap-4">
-        <div className="text-3xl">{data.me}</div>
+        <div className="text-3xl font-medium">{data.me}</div>
         <p>
           {data.about}
           <Link className="underline decoration-gray-1 hover:decoration-white-1" href={'/reddit'}>app</Link>
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-6 ">
-        <div className="text-xl text-gray-1">Work</div>
+        <div className="text-xl font-medium text-gray-1 -mb-2">Work</div>
         {data.work.map((item, index) => (
           <Work
             key={index}
@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-6">
-        <div className="text-xl text-gray-1">Projects</div>
+        <div className="text-xl font-medium text-gray-1 -mb-2">Projects</div>
         {data.projects.map((item, index) => (
           <Project
             key={index}

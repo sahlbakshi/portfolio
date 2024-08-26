@@ -9,7 +9,7 @@ function Project({name, desc, link, demo = ''}) {
       ></ArrowLink>
       <div className="text-base text-gray-1">{desc}</div>
       {demo &&
-        <video className="mt-2 rounded-sm w-full" controls >
+        <video className="mt-2 w-full" controls >
           <source src={'/demo/' + demo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

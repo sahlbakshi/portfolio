@@ -8,7 +8,7 @@ const height = 46
 function Work({name, role, date, stack = [], made = [], prefix, image}) {
   return (
     <div className="flex flex-row gap-4 items-center">
-        <Image className="rounded-sm" src={image} width={width} height={height} alt="company logo"></Image>
+        <Image className="" src={image} width={width} height={height} alt="company logo"></Image>
         <div className="flex flex-col items-start gap-0.5">
           <div className="flex flex-row gap-2 items-center">
             <div className="text-lg">{name}</div>

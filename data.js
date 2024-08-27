@@ -31,11 +31,13 @@ export const projects = [
     link: 'https://github.com/sahlbakshi/straights',
     desc: 'Poker-like game called straights on the CLI',
   },
+  /*
   {
     name: 'Recommendation System',
     link: 'https://github.com/sahlbakshi/RecEngine',
     desc: 'Learnt how a recommendation system works',
   },
+  */
 ]
 
 export const work = [

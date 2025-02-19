@@ -11,7 +11,7 @@ export default function Navbar({ page }: NavbarProps) {
       <Link href={'/'} className={page === "home" ? "" : "text-linkGray"}>Sahl Bakshi</Link>
       <div className="flex gap-4">
         <Link href={'/blog'} className={page === "blog" ? "" : "text-linkGray"}>Blog</Link>
-        <Link href={'/work'} className={page === "work" ? "" : "text-linkGray"}>Work</Link>
+        <Link href={'/work'} className={page === "work" ? "" : "text-linkGray"}>Projects</Link>
       </div>
     </div>
   )

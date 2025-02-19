@@ -1,5 +1,5 @@
-import Navbar from "../../components/nav";
-import Container from "../../components/container";
+import Navbar from "./components/nav";
+import Container from "./components/container";
 import Link from "next/link";
 
 export default function Page() {

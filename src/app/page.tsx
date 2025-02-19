@@ -8,7 +8,7 @@ export default function Page() {
       <Navbar page="home"></Navbar>
       <div className="w-full flex flex-col gap-4">
         <div className="flex flex-col gap-4 text-md">
-          <p>Currently a computer science student at Waterloo. I've been a 2x SWE intern at Ford, Webook.com and early stage VC backed startup where I worked on product and engineering.</p>
+          <p>Currently a computer science student at Waterloo. {"I've"} been a 2x SWE intern at Ford, Webook.com and early stage VC backed startup where I worked on product and engineering.</p>
           <p>I also designed and developed a consumer app, getting over 20k downloads and 5k MRR. You can read more about it here.</p>
         </div>
 

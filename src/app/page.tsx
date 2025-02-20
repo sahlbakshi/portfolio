@@ -25,7 +25,7 @@ export default function Page() {
                 <Image
                   src="/slack-message.png"
                   alt="Slack message"
-                  className="w-full rounded-md"
+                  className="w-full rounded-none"
                   width={200}
                   height={200}
                 />

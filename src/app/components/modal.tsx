@@ -21,17 +21,17 @@ function Modal({ content, onClose }: ModalProps) {
 
   return (
     <div 
-      className="fixed inset-0 bg-black bg-opacity-75 backdrop-blur-sm flex justify-center z-50 overflow-y-auto"
+      className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm flex justify-center z-50 overflow-y-auto"
       onClick={onClose}
     >
       <div 
         className="bg-transparent text-white w-[90vw] max-w-[700px] flex flex-col items-center justify-center"
-        onClick={(e) => e.stopPropagation()}
+        //onClick={(e) => e.stopPropagation()}
       >
         {content}
         
         <button 
-          className="mt-8 px-[8px] py-[6px] bg-white/25 rounded-md text-[13px] border-[0.5px] border-gray-400 font-bold"
+          className="mt-8 px-[8px] py-[6px] backdrop-blur-lg bg-white/30 rounded-md text-[12px] border border-white/20 font-bold"
           onClick={onClose}
         >
           ESC

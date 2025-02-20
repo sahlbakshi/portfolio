@@ -16,7 +16,7 @@ export default function Page() {
           <p>
             Currently a computer science student at the University of Waterloo and will be graduating in exactly {days} days. {" "}
           </p>
-          <p>
+          <div>
             {"I've"} been a 2x SWE intern at Ford, Webook.com and pre-seed VC backed startup, NiaHealth where I worked across product and engineering (0→1). {" "}
             {"Here's"} a slack {" "}
             <ModalTrigger
@@ -32,7 +32,7 @@ export default function Page() {
               }
             ></ModalTrigger>
             {" "} summarizing my work from the CTO.
-          </p>
+          </div>
           <p>
             I also designed and shipped a {" "}
             <Link className="text-linkGray underline" href={'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'}>consumer app</Link>, 

@@ -21,7 +21,7 @@ function Modal({ content, onClose }: ModalProps) {
 
   return (
     <div 
-      className="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm flex justify-center z-50 overflow-y-auto"
+      className="fixed inset-0 bg-black bg-opacity-75 backdrop-blur-sm flex justify-center z-50 overflow-y-auto"
       onClick={onClose}
     >
       <div 

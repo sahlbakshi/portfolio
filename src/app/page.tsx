@@ -2,6 +2,7 @@ import Navbar from "./components/nav";
 import Container from "./components/container";
 import Link from "next/link";
 import ModalTrigger from "./components/modal";
+import Image from "next/image";
 
 export default function Page() {
 
@@ -17,14 +18,16 @@ export default function Page() {
           </p>
           <p>
             {"I've"} been a 2x SWE intern at Ford, Webook.com and pre-seed VC backed startup, NiaHealth where I worked across product and engineering (0→1). {" "}
-            Here's a slack {" "}
+            {"Here's"} a slack {" "}
             <ModalTrigger
               label={{ text: 'message' }}
               modalContent={
-                <img 
+                <Image
                   src="/slack-message.png"
                   alt="Slack message"
-                  className="max-w-full rounded-md"
+                  className="w-full rounded-md"
+                  width={200}
+                  height={200}
                 />
               }
             ></ModalTrigger>

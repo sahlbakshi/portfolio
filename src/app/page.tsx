@@ -31,7 +31,7 @@ export default function Page() {
                 />
               }
             ></ModalTrigger>
-            {" "} summarizing my work from the CTO.
+            {" "} summarizing some of my work from the CTO.
           </div>
           <p>
             I also designed and shipped a {" "}
@@ -41,7 +41,7 @@ export default function Page() {
             <Link className="text-linkGray underline" href={'https://www.coldemailhackers.com/'}>cold email hackers</Link>.
           </p>
           <p>
-           You can reach out to me using any of my links above or by {" "}
+           You can reach out to me using any of the links above or by {" "}
            <Link className="text-linkGray underline" href={'mailto:sahl.bakshi@uwaterloo.ca'}>email</Link>.
           </p>
         </div>

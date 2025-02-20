@@ -7,7 +7,7 @@ interface NavbarProps {
 export default function Navbar({ page }: NavbarProps) {
 
   return (
-    <div className="w-full flex justify-between">
+    <div className="w-full flex justify-between items-center">
       <Link href={'/'} className={page === "home" ? "" : "text-linkGray"}>Sahl Bakshi</Link>
 
       <div className="flex gap-4">

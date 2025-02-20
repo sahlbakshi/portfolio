@@ -34,9 +34,9 @@ export default function Page() {
             {" "} summarizing my work from the CTO.
           </p>
           <p>
-            I also designed and developed a {" "}
+            I also designed and shipped a {" "}
             <Link className="text-linkGray underline" href={'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'}>consumer app</Link>, 
-            getting over 25k downloads with 5k MRR (90% profit). Before that I dabbled with some agency work building landing pages and applications for {" "}
+            getting over 20k downloads with 5k MRR (90% profit) {"in < 3 months"}. Before that I dabbled with some agency work building landing pages and applications for {" "}
             <Link className="text-linkGray underline" href={'https://ustc.sa/en'}>ustc</Link>{" "}and{" "}
             <Link className="text-linkGray underline" href={'https://www.coldemailhackers.com/'}>cold email hackers</Link>.
           </p>

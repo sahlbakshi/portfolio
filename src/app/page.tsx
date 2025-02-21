@@ -1,12 +1,21 @@
+"use client"
+
 import Navbar from "./components/nav";
 import Container from "./components/container";
 import Link from "next/link";
 import ModalTrigger from "./components/modal";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function Page() {
+  const [days, setDays] = useState(0)
 
-  const days = Math.ceil((new Date('2025-05-30').getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
+  useEffect(() => {
+    const today = new Date()
+    const targetDate = new Date("2025-05-30")
+    const diff = Math.ceil((targetDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
+    setDays(diff)
+  }, [])
 
   return (
     <Container>

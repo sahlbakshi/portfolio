@@ -12,7 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         linkGray: 'oklch(0.556 0 0)',
-        linkBlue: 'oklch(0.623 0.214 259.815)',
+        linkBlue: '#2480ED',
       },
       fontFamily: {
         georgia: ['Georgia']

@@ -8,25 +8,16 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Page() {
-  const [days, setDays] = useState(0)
-
-  useEffect(() => {
-    const today = new Date()
-    const targetDate = new Date("2025-05-30")
-    const diff = Math.ceil((targetDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
-    setDays(diff)
-  }, [])
-
   return (
     <Container>
       <Navbar page="home"></Navbar>
-      <div className="w-full flex flex-col gap-8">
+      <div className="w-full flex flex-col gap-8 text-[15px]">
         <div className="flex flex-col gap-4 text-md">
           <p>
-            Currently a computer science student at the University of Waterloo and will be graduating in exactly {days} days. {" "}
+            I just graduated with a computer science degree from the University of Waterloo and am looking for roles in engineering and product.{" "}
           </p>
           <div>
-            {"I've"} been a 2x SWE intern at Ford, Webook.com and pre-seed VC backed startup, NiaHealth where I worked across product and engineering (0→1). {" "}
+            {"I've"} been a 2x SWE intern at Ford, Webook.com and a VC backed medtech startup where I worked across product and engineering (0→1). {" "}
             {"Here's"} a slack {" "}
             <ModalTrigger
               label={{ text: 'message' }}
@@ -44,14 +35,12 @@ export default function Page() {
           </div>
           <p>
             I also designed and shipped a {" "}
-            <Link className="text-linkGray underline" href={'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'}>consumer app</Link>, 
-            getting over 20k downloads with 5k MRR (90% profit) {"in < 3 months"}. Before that I dabbled with some agency work building landing pages and applications for {" "}
-            <Link className="text-linkGray underline" href={'https://ustc.sa/en'}>ustc</Link>{" "}and{" "}
-            <Link className="text-linkGray underline" href={'https://www.coldemailhackers.com/'}>cold email hackers</Link>.
+            <Link className="text-linkBlue underline" href={'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'}>consumer app</Link> 
+            {" "} that was acquired for $90,000 after reaching 40k downloads with 5k MRR (90% profit) {"in <6 months"}.
           </p>
           <p>
            You can reach out to me using any of the links above or by {" "}
-           <Link className="text-linkGray underline" href={'mailto:sahl.bakshi@uwaterloo.ca'}>email</Link>.
+           <Link className="text-linkBlue underline" href={'mailto:sahl.bakshi@uwaterloo.ca'}>email</Link>.
           </p>
         </div>
         {

@@ -82,7 +82,7 @@ export default function ModalTrigger({ image, label, modalContent }: ModalTrigge
     return (
       <>
         <button
-          className="text-linkGray underline cursor-pointer focus:outline-none"
+          className="text-linkBlue underline cursor-pointer focus:outline-none"
           onClick={() => setShowModal(true)}
         >
           {label.text}

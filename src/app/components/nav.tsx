@@ -7,7 +7,7 @@ interface NavbarProps {
 export default function Navbar({ page }: NavbarProps) {
 
   return (
-    <div className="w-full sm:flex justify-between items-start text-[15px]">
+    <div className="w-full sm:flex justify-between items-start text-[15.5px]">
       <div className="sm:mb-0 mb-4">
         <Link href={'/'} className={page === "home" ? "" : "text-linkGray"}>Sahl Bakshi</Link>
         <div className="text-linkGray">Updated Jun 10, 2025</div>

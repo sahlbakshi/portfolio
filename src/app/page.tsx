@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <Container>
       <Navbar page="home"></Navbar>
-      <div className="w-full flex flex-col gap-8 text-[15px]">
+      <div className="w-full flex flex-col gap-8 text-[15.5px]">
         <div className="flex flex-col gap-4 text-md">
           <p>
             I just graduated with a computer science degree from the University of Waterloo and am looking for roles in engineering and product.{" "}

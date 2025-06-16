@@ -5,7 +5,6 @@ import Container from "./components/container";
 import Link from "next/link";
 import ModalTrigger from "./components/modal";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Page() {
   return (
@@ -17,7 +16,7 @@ export default function Page() {
             I just graduated with a computer science degree from the University of Waterloo and am looking for roles in engineering and product.{" "}
           </p>
           <div>
-            {"I've"} been a 2x SWE intern at Ford, Webook.com and a VC backed medtech startup where I worked across product and engineering (0→1). {" "}
+            {"I've"} been a 2x SWE intern at Ford, Webook.com and a VC backed medtech startup, NiaHealth where I worked across product and engineering (0→1). {" "}
             {"Here's"} a slack {" "}
             <ModalTrigger
               label={{ text: 'message' }}

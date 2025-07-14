@@ -11,8 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        linkGray: 'oklch(0.556 0 0)',
-        linkBlue: '#2480ED',
+        my_gray_100: '#A0A0A0',
+        my_gray_200: '#8E8E8E',
+        my_blue: '#2480ED',
+        my_black: '#444444',
       },
       fontFamily: {
         georgia: ['Georgia']

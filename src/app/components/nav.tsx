@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 interface NavbarProps {
   page: string;
@@ -11,7 +10,7 @@ export default function Navbar({ page }: NavbarProps) {
     <div className="w-full sm:flex justify-between items-start text-[15.5px]">
       <div className="sm:mb-0 mb-4">
         <Link href={'/'} className="text-my_black">Sahl Bakshi</Link>
-        <div className="text-my_gray_200">Updated Jun 10, 2025</div>
+        <div className={page === "home" ? "text-my_gray_200" : "text-my_gray_200"}>Updated Jun 10, 2025</div>
       </div>
 
       <div className="flex gap-4">

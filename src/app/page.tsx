@@ -10,10 +10,10 @@ export default function Page() {
   return (
     <Container>
       <Navbar page="home"></Navbar>
-      <div className="w-full flex flex-col gap-8 text-[15.5px] text-my_black">
+      <div className="w-full flex flex-col gap-8 text-md text-my_black">
         <div className="flex flex-col gap-4 text-md">
           <p>
-            I recently graduated with a computer science degree from the University of Waterloo and am looking for roles in engineering and product.{" "}
+            I recently graduated with a computer science degree from the University of Waterloo and am actively seeking full time roles.{" "}
           </p>
           <div>
             {"I've"} been a 2x SWE intern at Ford, Webook.com and a VC backed medtech startup, NiaHealth where I worked across product and engineering (0→1). {" "}

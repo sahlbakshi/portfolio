@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: #EAE7DF;
     --foreground: oklch(0.269 0 0);
   }
 }
@@ -19,6 +19,7 @@ body {
   background: var(--background);
   font-family: ui-sans-serif, system-ui, sans-serif;
   line-height: 1.4;
+  font-size: 15px;
 }
 
 @font-face {

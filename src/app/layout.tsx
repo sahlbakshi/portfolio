@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sahl Bakshi",
-  description: "CS at University of Waterloo",
+  description: "",
 };
 
 export default function RootLayout({

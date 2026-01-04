@@ -10,7 +10,7 @@ export default function ParaLink({ link, href }: ParaLinkProps) {
     <Link
       href={href}
       target="_blank"
-      className="underline underline-offset-2 decoration-[#888888] hover:text-[#0000FF] hover:decoration-[#0000FF]"
+      className="underline underline-offset-2 decoration-[#999999] hover:text-[#0000FF] hover:decoration-[#0000FF]"
     >
       {link}
     </Link>

@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 :root {
-  --font-sans: -apple-system, system-ui, var(--font-inter), sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --background: #ffffff;
   --foreground: #444444;
 }
@@ -10,13 +8,11 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-open-sans), var(--font-inter), -apple-system, system-ui, sans-serif;
   font-size: 16px;
 }

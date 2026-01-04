@@ -9,7 +9,7 @@ export default function About() {
       </p>
       <div>
         I've been a 2x SWE intern at Ford, Webook.com, and a VC backed medtech startup
-        where I worked across product and engineering (0→1). Here's a slack{" "}
+        where I worked across product and engineering. Here's a slack{" "}
         <Expandable
           label="message"
           suffix={", summarizing some of my work from the CTO."}

@@ -7,7 +7,7 @@ export default function About() {
       <p>
         I'm a recent computer science graduate from the University of Waterloo, actively seeking full-time roles.
       </p>
-      <p>
+      <div>
         I've been a 2x SWE intern at Ford, Webook.com, and a VC backed medtech startup
         where I worked across product and engineering (0→1). Here's a slack{" "}
         <Expandable
@@ -16,7 +16,7 @@ export default function About() {
         >
           <img className="w-full h-auto" src="/slack.png" alt="Slack"/>
         </Expandable>
-      </p>
+      </div>
       <p>
         {`Last year, I co-founded a consumer app that was acquired for $90,000 after reaching 40k downloads and 5k MRR (90% profit) in <6 months.`}
       </p>

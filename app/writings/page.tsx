@@ -1,6 +1,6 @@
 import ParaLink from "@/components/paralink";
 
-export default function Writings() {
+export default function Notes() {
   return (
     <div>
       <ul className="flex flex-col gap-1">
@@ -9,10 +9,18 @@ export default function Writings() {
           <p>Jan 4, 2026</p>
         </li>
         <li className="flex flex-row gap-2 justify-between">
-          <ParaLink link="People Who Inspire" href="https://docs.google.com/document/d/11AO15SP_tn80WtyRv4EVT4093cr2qj1BkYZhONwlfFw/preview"/>
-          <p>Jan 4, 2026</p>
+          <ParaLink link="Leetcode For Dummies" href=""/>
+          <p>Jan 5, 2026</p>
+        </li>
+        <li className="flex flex-row gap-2 justify-between">
+          <ParaLink link="People Who Inspire Me" href=""/>
+          <p>Jan 5, 2026</p>
+        </li>
+        <li className="flex flex-row gap-2 justify-between">
+          <ParaLink link="Telehealth Companies" href=""/>
+          <p>Jan 6, 2026</p>
         </li>
       </ul>
     </div>
   )
-}   
+}

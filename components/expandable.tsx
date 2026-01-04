@@ -20,7 +20,7 @@ export function Expandable({
       <button
         type="button"
         onClick={() => setOpen(open => !open)}
-        className="cursor-pointer underline underline-offset-2 decoration-[#888888] hover:text-[#0000FF] hover:decoration-[#0000FF]"
+        className="cursor-pointer underline underline-offset-2 decoration-[#D6D6D6] hover:text-[#0000FF] hover:decoration-[#0000FF]"
       >
         {label}
       </button>

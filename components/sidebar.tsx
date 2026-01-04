@@ -7,7 +7,7 @@ export default function Sidebar() {
       <div className="flex flex-row sm:flex-col gap-4 sm:gap-1">
         <Link href="/about" className="text-right">About</Link>
         <Link href="/projects" className="text-right">Projects</Link>
-        <Link href="/writings" className="text-right">Writing</Link>
+        <Link href="/essays"   className="text-right">Essays</Link>
         <Link href="/favorites" className="text-right">Favorites</Link>
       </div>
     </div>

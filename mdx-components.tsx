@@ -19,6 +19,14 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         {children}
       </blockquote>
     ),
+    ul: ({ children }) => (
+      <ul className="list-disc list-inside my-5">
+        {children}
+      </ul>
+    ),
+    li: ({ children }) => (
+      <li className="mb-1">{children}</li>
+    ),
     ...components,
   }
 }

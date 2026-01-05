@@ -14,8 +14,10 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     p: ({ children }) => (
       <p className="mb-5">{children}</p>
     ),
-    strong: ({ children }) => (
-      <strong className="font-bold">{children}</strong>
+    blockquote: ({ children }) => (
+      <blockquote className="border-l-2 border-black/10 pl-4 my-5">
+        {children}
+      </blockquote>
     ),
     ...components,
   }

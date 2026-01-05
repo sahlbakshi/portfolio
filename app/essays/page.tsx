@@ -5,8 +5,12 @@ export default function Notes() {
     <div>
       <ul className="flex flex-col gap-1">
         <li className="flex flex-row gap-2 justify-between">
-          <ParaLink link="That One Line From Moneyball" href="/essays/that-one-line-from-moneyball"/>
-          <p className="text-[#8A8A8A]">Dec 31, 2025</p>
+          <ParaLink link="That Line in Moneyball" href="/essays/that-line-in-moneyball"/>
+          <p className="text-[#8A8A8A]">Dec 29, 2025</p>
+        </li>
+        <li className="flex flex-row gap-2 justify-between">
+          <ParaLink link="Giving Advice is Flawed" href="/essays/giving-advice-is-flawed"/>
+          <p className="text-[#8A8A8A]">Jan 04, 2026</p>
         </li>
         <li className="flex flex-row gap-2 justify-between">
           <ParaLink link="Leetcode For Dummies" href=""/>
@@ -18,10 +22,6 @@ export default function Notes() {
         </li>
         <li className="flex flex-row gap-2 justify-between">
           <ParaLink link="Telehealth Companies" href=""/>
-          <p className="text-[#8A8A8A]">Soon</p>
-        </li>
-        <li className="flex flex-row gap-2 justify-between">
-          <ParaLink link="Don’t Give Advice" href=""/>
           <p className="text-[#8A8A8A]">Soon</p>
         </li>
       </ul>

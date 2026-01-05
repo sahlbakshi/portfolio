@@ -20,6 +20,10 @@ export default function Notes() {
           <ParaLink link="Telehealth Companies" href=""/>
           <p className="text-[#8A8A8A]">Soon</p>
         </li>
+        <li className="flex flex-row gap-2 justify-between">
+          <ParaLink link="Don’t Give Advice" href=""/>
+          <p className="text-[#8A8A8A]">Soon</p>
+        </li>
       </ul>
     </div>
   )

@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #444444;
+  --foreground: #222222;
 }
 
 @theme inline {
@@ -14,5 +14,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-open-sans), var(--font-inter), -apple-system, system-ui, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }

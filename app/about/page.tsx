@@ -21,7 +21,7 @@ export default function About() {
         {`Last year, I co-founded a consumer app that was acquired for $90,000 after reaching 40k downloads and 5k MRR (90% profit) in <6 months.`}
       </p>
       <p>
-        Feel free to reach out on <ParaLink link="X" href="https://www.x.com/sahlbakshi"/>, <ParaLink link="LinkedIn" href="https://www.linkedin.com/in/sahl-bakshi/"/>, or <ParaLink link="Email" href="mailto:saa2baks@uwaterloo.ca"/>.
+        Feel free to reach out on <ParaLink link="X" href="https://www.x.com/sahlbakshi" external/>, <ParaLink link="LinkedIn" href="https://www.linkedin.com/in/sahl-bakshi/" external/>, or <ParaLink link="Email" href="mailto:saa2baks@uwaterloo.ca "/>.
       </p>
     </div>
   );

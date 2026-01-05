@@ -1,7 +1,7 @@
 import type { MDXComponents } from 'mdx/types'
 import ParaLink from "@/components/paralink";
-import Footer from './components/footer';
-import Date from './components/date';
+import Footer from '@/components/footer';
+import Date from '@/components/date';
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {

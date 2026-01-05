@@ -13,11 +13,15 @@ export default function Notes() {
           <p className="text-[#8A8A8A]">Jan 04, 2026</p>
         </li>
         <li className="flex flex-row gap-2 justify-between">
+          <ParaLink link="Relative Success" href=""/>
+          <p className="text-[#8A8A8A]">Soon</p>
+        </li>
+        <li className="flex flex-row gap-2 justify-between">
           <ParaLink link="Leetcode For Dummies" href=""/>
           <p className="text-[#8A8A8A]">Soon</p>
         </li>
         <li className="flex flex-row gap-2 justify-between">
-          <ParaLink link="People Who Inspire Me" href=""/>
+          <ParaLink link="Underdog Founders" href=""/>
           <p className="text-[#8A8A8A]">Soon</p>
         </li>
         <li className="flex flex-row gap-2 justify-between">

@@ -4,6 +4,10 @@ export default function Favorites() {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-1">
+        <p className="font-semibold">Videos</p>
+        <ParaLink link="Why Being Delusional is a Superpower" href="https://www.youtube.com/watch?v=3LopI4YeC4I" external/>
+      </div>
+      <div className="flex flex-col gap-1">
         <p className="font-semibold">Movies</p>
         <ParaLink link="Little Miss Sunshine" href="https://www.rottentomatoes.com/m/little_miss_sunshine" external/>
         <ParaLink link="Whiplash" href="https://www.rottentomatoes.com/m/whiplash_2014" external/>

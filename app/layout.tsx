@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${open_sans.variable} ${inter.variable} antialiased`}>
         <div className="flex flex-row justify-center items-start">
-          <div className="flex flex-col w-full sm:w-auto sm:flex-row m-6 sm:m-16 gap-4 sm:gap-12">
+          <div className="flex flex-col w-full sm:w-auto sm:flex-row m-6 sm:m-16 gap-8 sm:gap-12">
             <Sidebar />
             <div className="w-full sm:w-[540px]">
               {children}

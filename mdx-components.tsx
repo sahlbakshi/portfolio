@@ -9,7 +9,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     Footer,
     Date,
     h1: ({ children }) => (
-      <h1 className="font-medium text-[15px]">{children}</h1>
+      <h1 className="font-medium">{children}</h1>
     ),
     p: ({ children }) => (
       <p className="mb-5">{children}</p>

@@ -4,7 +4,7 @@ export default function Date({
   children?: React.ReactNode;
 }) {
   return (
-    <p className="text-[#8A8A8A] mb-4">
+    <p className="text-black/40 mb-4">
       {children}
     </p>
   );

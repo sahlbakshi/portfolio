@@ -5,11 +5,6 @@ const essays = [
     title: "Giving Advice is Flawed",
     href: "/essays/giving-advice-is-flawed",
     date: "Dec 29, 2025",
-  },
-  {
-    title: "The Billy Beane Rule",
-    href: "/essays/the-billy-beane-rule",
-    date: "Dec 28, 2025",
   }
 ]
 
@@ -20,7 +15,7 @@ export default function Notes() {
         {essays.map((essay, index) => (
           <li key={index} className="flex flex-row gap-2 justify-between">
             <ParaLink link={essay.title} href={essay.href}/>
-            <p className="text-[#8A8A8A]">{essay.date}</p>
+            <p className="text-black/40">{essay.date}</p>
           </li>
         ))}
       </ul>

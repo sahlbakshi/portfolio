@@ -29,7 +29,7 @@ export default function RootLayout({
         <div className="flex flex-row justify-center items-start">
           <div className="flex flex-col w-full sm:w-auto sm:flex-row m-6 sm:m-16 gap-6 sm:gap-12">
             <Sidebar />
-            <div className="w-full sm:w-[520px]">
+            <div className="w-full sm:w-[510px]">
               {children}
             </div>
           </div>

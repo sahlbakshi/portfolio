@@ -15,4 +15,5 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter), -apple-system, system-ui, sans-serif;
   font-size: 15px;
+  font-weight: 300;
 }

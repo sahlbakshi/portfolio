@@ -11,7 +11,7 @@ export default function ParaLink({ link, href, external = false }: ParaLinkProps
     <Link
       href={href}
       target={external ? "_blank" : undefined}
-      className="decoration-1 underline underline-offset-2 hover:text-[#0000FF] hover:decoration-[#0000FF]"
+      className="decoration-1 underline underline-offset-2 hover:text-[#0000FF] hover:decoration-[#0000FF] transition-colors duration-200 ease-in-out"
     >
       {link}
     </Link>

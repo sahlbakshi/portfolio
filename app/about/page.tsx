@@ -3,7 +3,7 @@ import ParaLink from "@/components/paralink";
 
 export default function About() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-5">
       <p>
         I'm a recent computer science graduate from the University of Waterloo, actively seeking full-time roles.
       </p>

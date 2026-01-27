@@ -37,13 +37,13 @@ export default function Sidebar() {
   */
 
   return (
-    <div className="flex justify-between sm:justify-start flex-col gap-4">
+    <div className="flex justify-between sm:justify-start flex-col gap-5">
       <div className="flex flex-row sm:flex-col gap-2 sm:gap-0">
         <Link href="/" className="text-right font-medium">Sahl</Link>
 
         <button
           onClick={playAudio}
-          className="flex gap-[0.5px] items-center justify-end text-black/40 cursor-pointer"
+          className="flex gap-px items-center justify-end text-black/40 cursor-pointer"
           type="button"
         >
           <img src="/microphone.png" width={15} height={15} alt="Play audio" />
@@ -57,7 +57,7 @@ export default function Sidebar() {
         </button>
         
       </div>
-      <div className="flex flex-row sm:flex-col gap-4 sm:gap-1">
+      <div className="flex flex-row sm:flex-col gap-5 sm:gap-1">
         <Link href="/about" className="text-right">About</Link>
         <Link href="/projects" className="text-right">Projects</Link>
         <Link href="/essays"   className="text-right">Writing</Link>

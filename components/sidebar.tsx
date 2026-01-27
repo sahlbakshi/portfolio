@@ -57,7 +57,7 @@ export default function Sidebar() {
         </button>
         
       </div>
-      <div className="flex flex-row sm:flex-col gap-5 sm:gap-1">
+      <div className="flex flex-row sm:flex-col gap-4 sm:gap-1">
         <Link href="/about" className="text-right">About</Link>
         <Link href="/projects" className="text-right">Projects</Link>
         <Link href="/essays"   className="text-right">Writing</Link>

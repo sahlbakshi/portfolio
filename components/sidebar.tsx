@@ -37,7 +37,7 @@ export default function Sidebar() {
   */
 
   return (
-    <div className="flex flex-row justify-between sm:justify-start sm:flex-col gap-4">
+    <div className="flex justify-between sm:justify-start flex-col gap-4">
       <div className="flex flex-row sm:flex-col gap-2 sm:gap-0">
         <Link href="/" className="text-right font-medium">Sahl</Link>
 

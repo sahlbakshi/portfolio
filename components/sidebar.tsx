@@ -41,7 +41,7 @@ export default function Sidebar() {
 
         <button
           onClick={playAudio}
-          className="flex gap-px items-center justify-end text-black/40 cursor-pointer"
+          className="flex gap-1 items-center justify-end text-black/40 cursor-pointer"
           type="button"
         >
           <img src="/microphone.svg" width={15} height={15} alt="Play audio" />

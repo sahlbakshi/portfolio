@@ -2,18 +2,17 @@
 
 import Link from "next/link";
 import { useRef } from "react";
-// import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function Sidebar() {
   const audioRef = useRef<HTMLAudioElement>(null)
-  // const pathname = usePathname()
-  // const router = useRouter()
+  const pathname = usePathname()
+  const router = useRouter()
 
   const playAudio = () => {
     audioRef.current?.play()
   }
 
-  /*
   const hideSidebar =
     pathname.startsWith("/about/") ||
     pathname.startsWith("/projects/") ||
@@ -28,13 +27,12 @@ export default function Sidebar() {
           className="flex items-center gap-1 text-black/40 cursor-pointer"
           type="button"
         >
-          <img className="fill-black/40" src="/undo.svg" width={15} height={15}></img>
+          <img src="/undo.svg" width={15} height={15}></img>
           <p>Index</p>
         </button>
       </div>
     )
   }
-  */
 
   return (
     <div className="flex justify-between sm:justify-start flex-col gap-5">
@@ -46,7 +44,7 @@ export default function Sidebar() {
           className="flex gap-px items-center justify-end text-black/40 cursor-pointer"
           type="button"
         >
-          <img src="/microphone.png" width={15} height={15} alt="Play audio" />
+          <img src="/microphone.svg" width={15} height={15} alt="Play audio" />
           <p>Sah-l</p>
 
           <audio

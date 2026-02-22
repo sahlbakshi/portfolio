@@ -35,10 +35,11 @@ export default function Sidebar() {
   }
 
   return (
-    <div className="flex justify-between sm:justify-start flex-col gap-5">
+    <div className="flex justify-between sm:justify-start flex-row sm:flex-col gap-5">
       <div className="flex flex-row sm:flex-col gap-2 sm:gap-0">
         <Link href="/" className="text-right font-medium">Sahl</Link>
 
+        {/*
         <button
           onClick={playAudio}
           className="flex gap-[2px] items-center justify-end text-black/40 cursor-pointer"
@@ -53,6 +54,7 @@ export default function Sidebar() {
             preload="none"
           />
         </button>
+        */}
         
       </div>
       <div className="flex flex-row sm:flex-col gap-4 sm:gap-1">

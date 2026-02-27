@@ -1,17 +1,11 @@
 import type { Metadata } from "next";
-import { Open_Sans, Spectral } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "@/components/sidebar";
 
-const open_sans = Open_Sans({
-  variable: "--font-open-sans",
-  subsets: ["latin"],
-});
-
-const spectral = Spectral({
+const spectral = localFont({
+  src: "../public/Spectral-Regular.ttf",
   variable: "--font-spectral",
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
